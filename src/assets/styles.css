@@ -8,7 +8,7 @@ body {
   font-family: "Righteous", cursive;
 }
 
-.font-roboto {
+.fontroboto {
   font-family: "Roboto";
 }
 .bck_black {
@@ -78,15 +78,15 @@ footer .footer_copyright {
 }
 
 /*====================
-        CARROUSEL
+        CAROUSEL
 ======================*/
 
-.carrousel_wrapper {
+.carousel_wrapper {
   height: 700px;
   overflow: hidden;
 }
 
-.carrousel_image {
+.carousel_image {
   background-size: cover !important;
 }
 
