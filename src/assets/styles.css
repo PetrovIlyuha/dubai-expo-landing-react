@@ -11,8 +11,8 @@ body {
 .fontroboto {
   font-family: "Roboto";
 }
-.bck_black {
-  background: #3c3c3c;
+.bck_cadet_blue {
+  background: #004445;
 }
 .bck_white {
   background: #ffffff;
@@ -30,7 +30,7 @@ body {
 }
 
 .center_wrapper {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -162,7 +162,7 @@ footer .footer_copyright {
 }
 
 .vn_item {
-  width: 50%;
+  width: 33%;
   color: #ffffff;
   text-align: center;
 }
@@ -182,7 +182,7 @@ footer .footer_copyright {
 }
 
 .vn_item .vn_inner:hover {
-  background: #3e3e3e;
+  background: #2c7873;
 }
 
 .vn_item .vn_icon_square {
@@ -203,7 +203,7 @@ footer .footer_copyright {
   background-repeat: no-repeat !important;
   position: absolute;
   top: -30px;
-  left: 124px;
+  left: 123px;
 }
 
 .vn_item .vn_title {
