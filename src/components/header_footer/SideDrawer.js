@@ -6,7 +6,7 @@ import ListItem from "@material-ui/core/ListItem";
 const SideDrawer = ({ open, onClose }) => {
   return (
     <Drawer anchor="right" open={open} onClose={() => onClose(false)}>
-      <List component="nav">
+      <List component="nav" className="side_drawer">
         <ListItem button onClick={() => console.log("Menu Item Clicked")}>
           Event Starts in
         </ListItem>
