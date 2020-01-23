@@ -30,7 +30,7 @@ body {
 }
 
 .center_wrapper {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -96,20 +96,23 @@ footer .footer_copyright {
   left: 50%;
   width: 400px;
   height: 160px;
+  padding: 20px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .artist_name .wrapper {
   border: 2px solid white;
+  border-radius: 20px;
   height: 121px;
   margin: 6px;
   text-align: center;
   color: yellow;
-  font-size: 2.4rem;
-  padding: 21px 70px 0px 70px;
+  font-size: 2.3rem;
+  padding: 22px 70px 0px 70px;
   text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 /*====================
