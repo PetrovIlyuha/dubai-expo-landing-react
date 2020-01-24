@@ -42,7 +42,12 @@ export default class Discount extends Component {
                 season passes will suit people who want to keep coming back for
                 more.
               </p>
-              <MyButton />
+              <MyButton
+                text="Purchase Tickets"
+                bck="#6fb98f"
+                color="white"
+                link="https://www.expo2020dubai.com/ru/tickets/catalogue"
+              />
             </div>
           </Slide>
         </div>
