@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import MyButton from "../utils/Button";
 
 export default class Discount extends Component {
   state = {
@@ -41,7 +42,7 @@ export default class Discount extends Component {
                 season passes will suit people who want to keep coming back for
                 more.
               </p>
-              <div>Button</div>
+              <MyButton />
             </div>
           </Slide>
         </div>
