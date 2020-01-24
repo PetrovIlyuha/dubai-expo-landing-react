@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import MyButton from "../utils/Button";
+import Zoom from "react-reveal/Zoom";
 
 export default class Pricing extends Component {
   state = {
@@ -13,14 +15,42 @@ export default class Pricing extends Component {
       "https://www.expo2020dubai.com/ru/tickets/catalogue",
       "https://www.expo2020dubai.com/ru/tickets/catalogue",
       "https://www.expo2020dubai.com/ru/tickets/catalogue"
-    ]
+    ],
+    delay: [500, 0, 300]
   };
+
+  showTicketPricesBoxes = () =>
+    this.state.prices.map((price, i) => {
+      return (
+        <Zoom key={i} delay={this.state.delay[i]}>
+          <div className="pricing_item">
+            <div className="pricing_inner_wrapper">
+              <div className="pricing_title">{this.state.type[i]}</div>
+              <div className="pricing_title">
+                <span>{this.state.prices[i]}</span>AED
+              </div>
+              <div className="pricing_description">
+                {this.state.description[i]}
+              </div>
+              <div className="pricing_buttons">
+                <MyButton
+                  text="Order Tickets"
+                  color="teal"
+                  bck="#BADA55"
+                  link={this.state.link[i]}
+                />
+              </div>
+            </div>
+          </div>
+        </Zoom>
+      );
+    });
   render() {
     return (
       <div className="bck_cadet_blue">
         <div className="center_wrapper pricing_section">
           <h2>Pricing</h2>
-          <div className="pricing_wrapper"></div>
+          <div className="pricing_wrapper">{this.showTicketPricesBoxes()}</div>
         </div>
       </div>
     );
