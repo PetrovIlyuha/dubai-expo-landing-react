@@ -8,7 +8,7 @@ export default function Carousel() {
     dots: false,
     infinite: true,
     autoplay: true,
-    speed: 500,
+    speed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1
   };

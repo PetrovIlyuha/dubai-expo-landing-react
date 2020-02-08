@@ -14,6 +14,10 @@ body {
 .bck_cadet_blue {
   background: #004445;
 }
+
+.bg_black_blue {
+  background: #021c1e;
+}
 .bck_white {
   background: #ffffff;
 }
@@ -22,6 +26,10 @@ body {
 }
 .bck_yellow {
   background: #ffa800;
+}
+
+.bck_rain {
+  background: #2c7873;
 }
 
 .iconImage {
@@ -76,7 +84,7 @@ header .header_text_sm {
 ======================*/
 
 footer {
-  padding: 50px 0px;
+  padding: 40px 0px;
   text-align: center;
   font-size: 60px;
   color: #ffffff;
@@ -363,7 +371,7 @@ footer .footer_copyright {
   width: 100%;
 }
 .location_tag div {
-  background: #2c2c2c;
+  background: #6fb98f;
   color: #ffffff;
   text-transform: uppercase;
   width: 220px;
